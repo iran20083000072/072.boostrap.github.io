@@ -1,0 +1,52 @@
+:root {
+  --mainColor: #3ab0ff;
+  --secondaryColor: #f87474;
+  --acsenColor: #fff;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* navbar */
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 10;
+}
+
+/* HERO */
+#hero {
+  color: var(--acsenColor);
+  min-height: 100vh;
+  padding-top: 75px;
+}
+
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+
+/* about */
+#About {
+  min-height: 500px;
+  width: 100%;
+  color: var(--acsenColor);
+  background-color: var(--secondaryColor);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+
+/* portofolio */
+#port .container {
+  padding: 80px 10px;
+  width: 100%;
+  color: var(--acsenColor);
+  min-height: 500px;
+}
+
+/*akhir portofolio*/
